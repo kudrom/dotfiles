@@ -38,9 +38,9 @@ filetype plugin indent on
 syntax on
 
 " Spell keys
-map <Leader>o :setlocal spell!<CR>
-map <Leader>so :setlocal spelllang=es<CR>
-map <Leader>eo :setlocal spelllang=en<CR>
+map <Leader>o :set spell!<CR>
+map <Leader>so :set spelllang=es<CR>
+map <Leader>eo :set spelllang=en<CR>
 
 " Diff stuff
 hi! DiffAdd cterm=None ctermbg=Green ctermfg=234
@@ -64,6 +64,7 @@ map <Leader>* :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
 nnoremap <Leader>z :UndotreeToggle<CR>
 map <Leader>t :TagbarToggle<CR>
 map <Leader>fo :fold<CR>
+map <Leader><F1> :syntax sync fromstart <CR>
 
 " NERDTree stuff
 hi! Directory ctermfg=172 ctermbg=None cterm=Bold
