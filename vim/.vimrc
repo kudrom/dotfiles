@@ -61,7 +61,7 @@ map <Leader>* :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
 " ====================================
 
 " Some random keys
-nnoremap <Leader>z :UndotreeToggle<CR>
+map <Leader>z :GundoToggle<CR>
 map <Leader>t :TagbarToggle<CR>
 map <Leader>fo :fold<CR>
 map <Leader><F1> :syntax sync fromstart <CR>
