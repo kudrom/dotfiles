@@ -41,6 +41,8 @@ syntax on
 map <Leader>o :set spell!<CR>
 map <Leader>so :set spelllang=es<CR>
 map <Leader>eo :set spelllang=en<CR>
+map <C-l> gt
+map <C-h> gT
 
 " Diff stuff
 hi! DiffAdd cterm=None ctermbg=Green ctermfg=234
