@@ -113,3 +113,5 @@ map <Leader>g  :Unite -no-split -start-insert -buffer-name=grep grep:.<CR>
 map <Leader>vg :vs<CR>:Unite -no-split -start-insert -buffer-name=grep grep:.<CR>
 map <Leader>sg :sp<CR>:Unite -no-split -start-insert -buffer-name=grep grep:.<CR>
 map <Leader>tg :tabnew<CR>:Unite -no-split -start-insert -buffer-name=grep grep:.<CR>
+
+map <Leader>co <C-_>b<CR>
