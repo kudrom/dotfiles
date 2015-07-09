@@ -32,6 +32,10 @@ set autoindent
 set selectmode=mouse
 set mouse=n
 
+
+" Recursively find a tags file
+set tags=./tags;/
+
 " Initialize pathogen
 execute pathogen#infect()
 filetype plugin indent on
@@ -56,7 +60,7 @@ map <Leader>dg :diffget<CR> :diffupdate<CR>
 map <Leader>dp :diffput<CR> :diffupdate<CR>
 
 " vimgrep key
-map <Leader>* :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
+map <Leader>* :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR><C-w>j
 
 " ====================================
 " From now on it's mostly plugin's stuff
