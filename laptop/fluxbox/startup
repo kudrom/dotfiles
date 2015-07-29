@@ -15,8 +15,7 @@
 # And last but not least we start fluxbox.
 # Because it is the last app you have to run it with ''exec'' before it.
 pulseaudio --start
-conky
-tint2 &
+tint2 -c ~/dotfiles/laptop/tint2rc &
 parcellite &
 xscreensaver --no-splash &
 setxkbmap es

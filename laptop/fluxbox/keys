@@ -55,7 +55,7 @@ Mod4 L :Exec xscreensaver-command -lock
 Mod4 E :Exec geany
 Mod4 V :Exec VirtualBox
 Mod4 F12 :Exec systemctl poweroff
-Mod4 F11 :Exec systemctl restart
+Mod4 Sfhit F12 :Exec systemctl restart
 Print :Exec scrot '%d-%m-%Y.png' -e 'mv $f /home/kudrom/imagenes/capturas'
 
 # open a dialog to run programs
@@ -67,6 +67,9 @@ XF86AudioRaiseVolume :Exec amixer -c 1 sset Master,0 1+
 XF86AudioLowerVolume :Exec amixer -c 1 sset Master,0 1-
 XF86AudioMute :Exec amixer -c 1 sset Master,0 toggle
 Scroll_Lock :Exec pavucontrol
+
+XF86MonBrightnessDown :Exec xbacklight -dec 10
+XF86MonBrightnessUp :Exec xbacklight -inc 10
 
 # current window commands
 Mod4 Z :Close
