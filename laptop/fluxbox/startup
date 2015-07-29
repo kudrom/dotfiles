@@ -18,9 +18,10 @@ pulseaudio --start
 conky
 tint2 &
 parcellite &
-xscreensaver &
+xscreensaver --no-splash &
 setxkbmap es
-feh --bg-tile /home/kudrom/imagenes/marengo.png
+wicd-gtk &
+feh --bg-tile /home/kudrom/imagenes/background.png
 
 # Change your keymap:
 xmodmap /home/kudrom/.capslock
