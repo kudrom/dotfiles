@@ -50,7 +50,7 @@ Mod4 Shift Tab :PrevTab
 Mod4 A :Exec terminator
 Mod4 F :Exec pcmanfm
 Mod4 W :Exec chromium
-Mod4 X :Exec evince
+Mod4 X :Exec okular
 Mod4 L :Exec xscreensaver-command -lock
 Mod4 E :Exec geany
 Mod4 V :Exec VirtualBox

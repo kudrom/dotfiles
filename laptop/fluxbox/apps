@@ -5,3 +5,6 @@
 [app] (name=Download) (class=Firefox) (role=Manager)
   [Dimensions]	{801 472}
 [end]
+[app] (name=qtcreator-bin) (class=QtCreator)
+  [Layer]	{4}
+[end]
