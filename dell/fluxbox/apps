@@ -1,0 +1,10 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=Download) (class=Firefox) (role=Manager)
+  [Dimensions]	{801 472}
+[end]
+[app] (name=qtcreator-bin) (class=QtCreator)
+  [Layer]	{4}
+[end]
