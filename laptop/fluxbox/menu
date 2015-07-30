@@ -74,7 +74,7 @@
       [exit] (Exit) 
 [end]
 [exit] (Exit) 
-[exec] (Apagar) {systemctl poweroff}
-[exec] (Reiniciar) {systemctl reboot}
+[exec] (Apagar) {sudo systemctl poweroff}
+[exec] (Reiniciar) {sudo systemctl reboot}
 [endencoding]
 [end]

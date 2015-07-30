@@ -14,10 +14,12 @@
 
 # And last but not least we start fluxbox.
 # Because it is the last app you have to run it with ''exec'' before it.
+xrdb .Xresources
 pulseaudio --start
 tint2 -c ~/dotfiles/laptop/tint2rc &
+pytyle &
 parcellite &
-xscreensaver --no-splash &
+xscreensaver -no-splash &
 setxkbmap es
 wicd-gtk &
 feh --bg-tile /home/kudrom/imagenes/background.png
