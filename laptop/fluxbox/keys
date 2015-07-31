@@ -47,7 +47,7 @@ Mod4 Tab :NextTab
 Mod4 Shift Tab :PrevTab
 
 # open a terminal
-Mod4 A :Exec xterm
+Mod4 A :Exec terminator
 Mod4 F :Exec pcmanfm
 Mod4 W :Exec chromium
 Mod4 X :Exec okular
@@ -67,9 +67,6 @@ XF86AudioRaiseVolume :Exec amixer -c 1 sset Master,0 1+
 XF86AudioLowerVolume :Exec amixer -c 1 sset Master,0 1-
 XF86AudioMute :Exec amixer -c 1 sset Master,0 toggle
 Scroll_Lock :Exec pavucontrol
-
-XF86MonBrightnessDown :Exec xbacklight -dec 10
-XF86MonBrightnessUp :Exec xbacklight -inc 10
 
 # current window commands
 Mod4 Z :Close
