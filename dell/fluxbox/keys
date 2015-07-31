@@ -66,7 +66,6 @@ Mod4 F3 :Exec dmenu_run
 XF86AudioRaiseVolume :Exec amixer -c 1 sset Master,0 1+
 XF86AudioLowerVolume :Exec amixer -c 1 sset Master,0 1-
 XF86AudioMute :Exec amixer -c 1 sset Master,0 toggle
-Scroll_Lock :Exec pavucontrol
 
 XF86MonBrightnessDown :Exec xbacklight -dec 10
 XF86MonBrightnessUp :Exec xbacklight -inc 10
