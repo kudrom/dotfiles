@@ -23,6 +23,7 @@ xscreensaver -no-splash &
 setxkbmap es
 wicd-gtk &
 feh --bg-tile /home/kudrom/imagenes/background.png
+pcmanfm -d &
 
 # Change your keymap:
 xmodmap /home/kudrom/.bloqmayus
