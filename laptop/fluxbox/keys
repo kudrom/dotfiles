@@ -54,8 +54,8 @@ Mod4 X :Exec okular
 Mod4 Q :Exec xscreensaver-command -lock
 Mod4 E :Exec geany
 Mod4 V :Exec VirtualBox
-Mod4 F12 :Exec sudo systemctl poweroff
-Mod4 Shift F12 :Exec sudo systemctl reboot
+Mod4 F12 :Exec systemctl poweroff
+Mod4 Shift F12 :Exec systemctl reboot
 Print :Exec scrot '%d-%m-%Y.png' -e 'mv $f /home/kudrom/imagenes/capturas'
 
 # open a dialog to run programs
