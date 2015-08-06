@@ -32,6 +32,8 @@ set autoindent
 set selectmode=mouse
 set mouse=n
 
+" Open vimrc in another tab
+map <Leader>v :tabnew $MYVIMRC<CR>
 
 " Recursively find a tags file
 set tags=./tags;/
@@ -47,6 +49,9 @@ map <Leader>so :set spelllang=es<CR>
 map <Leader>eo :set spelllang=en<CR>
 map <C-l> gt
 map <C-h> gT
+
+" Shift between header/source file on c++
+map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
 
 " Diff stuff
 hi! DiffAdd cterm=None ctermbg=Green ctermfg=234
@@ -68,7 +73,7 @@ map <Leader>* :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR><C-
 
 " Some random keys
 map <Leader>z :GundoToggle<CR>
-map <Leader>t :TagbarToggle<CR>
+map <Leader>t :TagbarToggle<CR> <C-w>=<CR>
 map <Leader>fo :fold<CR>
 map <Leader><F1> :syntax sync fromstart <CR>
 
