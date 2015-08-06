@@ -56,7 +56,7 @@ Mod4 E :Exec geany
 Mod4 V :Exec VirtualBox
 Mod4 F12 :Exec sudo systemctl poweroff
 Mod4 Shift F12 :Exec sudo systemctl reboot
-Print :Exec scrot '%d-%m-%Y.png' -e 'mv $f /home/kudrom/imagenes/capturas'
+Print :Exec scrot '%d-%m-%Y_%T.png' -e 'mv $f /home/kudrom/imagenes/capturas'
 
 # open a dialog to run programs
 Mod4 F3 :Exec dmenu_run
@@ -69,14 +69,15 @@ XF86AudioMute :Exec amixer -c 1 sset Master,0 toggle
 
 XF86MonBrightnessDown :Exec xbacklight -dec 10
 XF86MonBrightnessUp :Exec xbacklight -inc 10
+Shift XF86MonBrightnessDown :Exec brightness.sh
+Shift XF86MonBrightnessUp :Exec brightness.sh
 
 # current window commands
 Mod4 Z :Close
-Mod1 F5 :Kill
 Mod4 F9 :Minimize
 Mod4 F10 :Maximize
 Mod4 S :Fullscreen
-Mod4 F2 :WindowMenu
+Mod4 D :WindowMenu
 
 # exit fluxbox
 Control Mod1 Delete :Exit
