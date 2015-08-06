@@ -9,6 +9,11 @@ setlocal spell spelllang=es
 colorscheme koehler
 colorscheme 256-jungle
 
+" Lightline
+let g:lightline = {
+    \'colorscheme': 'wombat',
+\}
+
 " General stuff
 set number
 set hlsearch
