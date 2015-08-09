@@ -43,3 +43,6 @@
 [submodule "vim/bundle/lightline.vim"]
 	path = vim/bundle/lightline.vim
 	url = https://github.com/itchyny/lightline.vim
+[submodule "vim/bundle/vim-qml"]
+	path = vim/bundle/vim-qml
+	url = https://github.com/peterhoeg/vim-qml
