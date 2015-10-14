@@ -4,10 +4,14 @@ set nocompatible
 set encoding=utf-8
 set t_Co=256
 setlocal spell spelllang=es
+autocmd BufWinEnter * set spell
 "
 " Colorscheme
 colorscheme koehler
 colorscheme 256-jungle
+highlight OverLength ctermbg=203 ctermfg=white
+match OverLength /\%81v.\+/
+autocmd BufWinEnter * match OverLength /\%81v.\+/
 
 " Lightline
 let g:lightline = {
