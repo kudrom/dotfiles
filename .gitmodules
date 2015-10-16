@@ -29,6 +29,7 @@
 	path = vim/bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors
 [submodule "vim/bundle/vimproc.vim"]
+	ignore = dirty
 	path = vim/bundle/vimproc.vim
 	url = https://github.com/Shougo/vimproc.vim
 [submodule "vim/bundle/vim-smartinput"]
