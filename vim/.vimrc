@@ -99,18 +99,6 @@ let g:Tex_ViewRule_pdf = 'evince'
 " Autoclean fugitive buffers
 autocmd BufReadPost fugitive://* set bufhidden=delete
 
-" Syntastic stuff
-map <Leader>c :SyntasticCheck<CR>:Errors<CR>
-map <Leader>ct :SyntasticToggle<CR>
-map <Leader>e :Errors<CR>
-let g:syntastic_python_checkers = ['flake8']
-let g:syntastic_python_flake8_exec = 'flake8-python2'
-let g:syntastic_mode_map = {"mode": "passive"}
-let g:syntastic_error_symbol = "✗"
-let g:syntastic_style_error_symbol = "✗"
-let g:syntastic_warning_symbol = "⚠"
-let g:syntastic_style_warning_symbol = "⚠"
-
 " Sessions stuff
 let g:session_autosave = 'no'
 map <Leader>os :OpenSession<CR>
