@@ -21,13 +21,12 @@ pytyle &
 parcellite &
 xscreensaver -no-splash &
 setxkbmap es
+xmodmap /home/kudrom/.bloqmayus
 wicd-gtk &
 feh --bg-tile /home/kudrom/imagenes/background.png
 pcmanfm -d &
 syndaemon -K -i 1 -d
 
-# Change your keymap:
-xmodmap /home/kudrom/.bloqmayus
 exec fluxbox
 # or if you want to keep a log:
 # exec fluxbox -log "/home/kudrom/.fluxbox/log"

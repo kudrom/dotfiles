@@ -18,7 +18,6 @@ hi PreProc	    ctermfg=243         ctermbg=None        cterm=Bold
 hi Search	    ctermfg=125         ctermbg=None        cterm=Bold
 hi Type		    ctermfg=166         ctermbg=None        cterm=Bold
 hi Statement	ctermfg=172         ctermbg=None        cterm=Bold
-hi Comment	    ctermfg=240         ctermbg=None        cterm=None
 hi LineNr	    ctermfg=244         ctermbg=233         cterm=None
 hi NonText	    ctermfg=105         ctermbg=None        cterm=Bold
 hi DiffText	    ctermfg=165         ctermbg=244         cterm=None

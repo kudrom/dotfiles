@@ -39,13 +39,15 @@ set autoindent
 
 " Mouse stuff
 set selectmode=mouse
-set mouse=n
+set mouse=a
 
 " Open vimrc in another tab
 map <Leader>v :tabnew $MYVIMRC<CR>
 
 " Recursively find a tags file
 set tags=./tags;/
+
+nnoremap <F3> <C-w><C-]><C-w>T
 
 " Initialize pathogen
 execute pathogen#infect()
@@ -93,8 +95,9 @@ map <Leader>n :NERDTreeFind<CR>C
 " For vim-latex
 set grepprg=grep\ -nH\ $*
 let g:tex_flavor = 'latex'
+let g:Tex_CompileRule_pdf = 'pdflatex $*'
 let g:Tex_DefaultTargetFormat = 'pdf'
-let g:Tex_ViewRule_pdf = 'evince'
+let g:Tex_ViewRule_pdf = 'okular'
 
 " Autoclean fugitive buffers
 autocmd BufReadPost fugitive://* set bufhidden=delete
